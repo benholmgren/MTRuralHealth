@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Diabetes Prediction Model"
+date:   2021-06-30 18:05:04 -0600
+categories: Models
+---
+
+### Diabetes Predictor
+
+Using Tensorflow and national CDC data, we created a model to predict diabetes
+with 92.5% accuracy
