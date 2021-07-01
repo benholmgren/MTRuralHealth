@@ -1,11 +1,11 @@
 # Site settings
 title: Nature Break
-email: benjamin.holmgren@student.montana.edu
-description: Final Project website for csci 491
+email: mtruralhealth@gmail.com
+description: Montana Rural Health Data Science Center
 lang: en-US
 
-baseurl: "/csci-491-final" # the subpath of your site, e.g. /blog/
-url: https://benholmgren.github.io/csci-491-final # the base hostname & protocol for your site
+baseurl: "/MTRuralHealth" # the subpath of your site, e.g. /blog/
+url: https://benholmgren.github.io/MTRuralHealth # the base hostname & protocol for your site
 git_address: https://github.com/benholmgren 
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
