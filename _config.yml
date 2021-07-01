@@ -1,5 +1,5 @@
 # Site settings
-title: Nature Break
+title: MRHDSC
 email: mtruralhealth@gmail.com
 description: Montana Rural Health Data Science Center
 lang: en-US
@@ -49,15 +49,6 @@ defaults:
       type: "WebPage"
 
 - scope:
-    path: _destinations
-    type: destinations
-  values:
-    layout: destinations
-    sectionid: destinations
-    seo:
-      type: "WebPage"
-
-- scope:
     path: _about
     type: about
   values:
@@ -67,20 +58,20 @@ defaults:
       type: "WebPage"
 
 - scope:
-    path: _apply
-    type: apply
+    path: _predictors
+    type: predictors
   values:
-    layout: apply
-    sectionid: apply
+    layout: predictors
+    sectionid: predictors
     seo:
       type: "WebPage"
 
 - scope:
-    path: _discussion
-    type: discussion
+    path: _contact
+    type: contact
   values:
-    layout: discussion
-    sectionid: discussion
+    layout: contact
+    sectionid: contact
     seo:
       type: "WebPage"
 
@@ -91,18 +82,13 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
-  destinations:
-    permalink: /:collection/:path/
-    output: true
   about:
     permalink: /:collection/:path/
     output: true
-  apply:
+  predictors:
     permalink: /:collection/:path/
     output: true
-  discussion:
+  contact:
     permalink: /:collection/:path/
     output: true
 
-# Google Analytics
-google_analytics: G-2QWDPYBZFM
