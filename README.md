@@ -1,7 +1,7 @@
-Here is our fully hosted [website](https://benholmgren.github.io/csci-491-final/)!
+Here is our fully hosted [website](https://benholmgren.github.io/MTRuralHealth/)!
 
 ## Instructions for contribution
-This site is run through jekyll, a hosting tool github uses. To locally host this site, you'll need to 
+This site is run through jekyll, a hosting tool github uses. To locally host this site, you'll need to
 install it. To do so, see these [instructions](https://jekyllrb.com/docs/installation/).
 Jekyll makes hosting stuff pretty nice. For a tutorial on jekyll, maybe consider checking out the giraffe academy
 jekyll tutorials on youtube, they're pretty helpful. All you'll need to do for practical purposes with jekyll here
@@ -55,7 +55,7 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
 }
 
