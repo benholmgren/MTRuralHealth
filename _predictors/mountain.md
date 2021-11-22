@@ -1,8 +1,7 @@
 ---
-title: Mountains
+title: Diabetes Risk Model
 permalink: /predictors/diabetes/
 redirect_from: /predictors/diabetes.html
 ---
-### Add in this bad larry
+### TODO: Add diabetes model here
 ---
-![mountain](../../assets/img/mtnbg.jpg)
