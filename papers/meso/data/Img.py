@@ -35,8 +35,8 @@ def cloud(filename, threshold, disc):
     x = [x[0] for x in pointcloud]
     y = [y[1] for y in pointcloud]
 
-    plt.scatter(x, y, s=0.05)
-    plt.show()
+    # plt.scatter(x, y, s=0.05)
+    # plt.show()
 
     out_cloud = (np.array(pointcloud).astype('f4'))
     return out_cloud
