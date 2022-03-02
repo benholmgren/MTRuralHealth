@@ -1,31 +1,12 @@
-import math
-
-import Img
-import Persist
-import math as m
-
+import numpy as np
+from compare.Comparer import Comparer
 
 if __name__ == '__main__':
-    print("cloud1")
-    cloud_ok_1 = Img.cloud("data/stad1.1.png", 80, 4)
-    print("cloud2")
-    cloud_ok_2 = Img.cloud("data/stad1.2.png", 80, 4)
-    diag_1 = Persist.run_rips(cloud_ok_1)
-    diag_2 = Persist.run_rips(cloud_ok_2)
+    path1 = "data/filtrations/$$$.txt" # IMPORT PATHS!
+    path2 = "data/filtrations/$$$.txt"
+    filtration1 = np.loadtxt(path1)
+    filtration2 = np.loadtxt(path2)
 
-    arr_diag1 = []
-    arr_diag2 = []
-
-    for point in diag_1[0]:
-        if point.death != math.inf:
-            arr_diag1.append([point.birth, point.death])
-    print(arr_diag1)
-
-    for point in diag_2[0]:
-        if point.death != math.inf:
-            arr_diag2.append([point.birth, point.death])
-
-    Persist.kde_dist(arr_diag1, arr_diag2)
-
-
-
+    comparison = Comparer(filtration1, filtration2)
+    distance = comparison.calculateKDEdistance()
+    print(distance)
